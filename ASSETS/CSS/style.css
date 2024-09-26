@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "roboto regular";
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "roboto regular";
+}
+
+nav{
+    background-color: grey;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.lienparis{
+    justify-content: flex-end;
+    color: white;
+    text-decoration: none;
+    margin: 5px 80px;
+}
+
+.lienparis:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.lientokyo{
+    justify-content: flex-end;
+    color: white;
+    text-decoration: none;
+    margin: 5px 80px;
+}
+
+.lientokyo:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.lienny{
+    justify-content: flex-end;
+    color: white;
+    text-decoration: none;
+    margin: 10px 80px;
+}
+
+.lienny:hover{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    border: 1px solid black;
+    box-shadow: 6px 6px 20px black;
+    margin: 30px;
+    display: flex;
+    flex-direction:column;
+    width: 500px;
+}
+
+img{
+    height: 400px;
+    width: 500px;    
+}
+
+.btnp{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 20px 150px;
+    text-align: center;
+}
+
+.btnp:hover{
+    background-color: white;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.btnt{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 20px 150px;
+    text-align: center;
+
+}
+
+.btnt:hover{
+    background-color: white;
+    color: orangered;
+    text-decoration: none;
+}
+
+.btnny{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 20px 150px;
+    text-align: center;
+}
+
+.btnny:hover{
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+}
+h2,p{
+    padding: 30px;
+    margin-top: 5px;
+}
